@@ -6,7 +6,7 @@ A simple Tic Tac Toe game implemented using C# and the .NET Framework using Visu
 
 The main UI of the game, with a sample game underway:
 
-![Image of Windows Form](/C#_NET_Implementation/images/Capture.PNG)
+![Image of Windows Form](/images/Capture.PNG)
 
 ## Introduction
 
