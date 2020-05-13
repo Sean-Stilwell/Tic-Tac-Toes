@@ -1,6 +1,5 @@
 package com.example.tictactoe;
 
-
 public class Board{
     private int[][] board;
 
@@ -22,6 +21,7 @@ public class Board{
             }
             x++;
         }
+        System.out.println("Board initialized!");
     }
 
     /**
