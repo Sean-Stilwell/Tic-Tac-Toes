@@ -43,7 +43,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
                 android:onClick="onClick"
+                android:scaleType="center"
                 app:srcCompat="@drawable/empty" />
 
             <ImageButton
@@ -119,6 +122,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onClick"
                 app:srcCompat="@drawable/empty" />
         </LinearLayout>
 
@@ -127,12 +131,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:onClick="onClick"
             android:text="Reset Game" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autoLink="all"
             android:gravity="center"
             android:text="https://seanstilwell.ca"
             android:textColor="#1A46AA" />

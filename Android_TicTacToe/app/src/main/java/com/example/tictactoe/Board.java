@@ -21,7 +21,6 @@ public class Board{
             }
             x++;
         }
-        System.out.println("Board initialized!");
     }
 
     /**
